@@ -168,7 +168,6 @@ header .flexItem {
   margin-left: 0.4em;
   border: 0;
   width: 1.25em;
-  background: transparent url("../images/icons/search.png") no-repeat center;
   background-size: contain;
   cursor: pointer;
 }
