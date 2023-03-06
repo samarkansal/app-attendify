@@ -33,14 +33,14 @@ header {
 }
 
 .bb-logo {
-  content: url("/logo-images/bb-logo.png");
-  height: 40px;
-  width: 200px;
+  content: url("/logo-images/attendify-logo.png");
+  height: 47px;
+  width: 130px;
   opacity: 0.85;
 }
 
 .bb-logo-mini {
-  content: url("/logo-images/bb-logo.png");
+  content: url("/logo-images/attendify-logo.png");
   height: 20px;
   width: 100px;
   opacity: 0.85;
@@ -140,6 +140,7 @@ header .search-icon:hover {
   display: flex;
   gap: 45px;
   padding-top: 10px;
+  list-style-type: none;
 }
 
 header .flexItem {

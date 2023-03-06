@@ -31,6 +31,7 @@ footer {
 .footer-sep > ul {
   margin-right: 3rem;
   margin-bottom: 2rem;
+  list-style-type: none;
 }
 .footer-sep > li {
   width: 100px;
@@ -41,9 +42,9 @@ footer {
 }
 
 .bb-logo-mini {
-  content: url("/logo-images/bb-logo.png");
-  height: 20px;
-  width: 100px;
+  content: url("/logo-images/attendify-logo.png");
+  height: 30px;
+  width: 80px;
   opacity: 0.85;
   margin-bottom: 1rem;
   margin-left: 1.5rem;
@@ -101,7 +102,7 @@ footer {
       </ul>
     </section>
     <section class="footer-sep">
-      <p>&#169; 2023 Blacksburg Bits. All Rights Reserved.</p>
+      <p>&#169; 2023 Attendify. All Rights Reserved.</p>
     </section>
   </footer>
 </template>
