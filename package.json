@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "start": "serve -s dist -p $PORT",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -11,7 +12,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "pinia": "^2.0.28",
+    "serve-static": "^1.15.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
