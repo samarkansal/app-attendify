@@ -132,8 +132,8 @@ h5 {
           <h4>ALL-IN-ONE MEETING MANAGEMENT</h4>
           <h1>Everything you need to organize meeting</h1>
           <button class="google-sign">
-            <img class="google-logo" src="logo-images/google-logo.png" />Sign in
-            with Google
+            <img class="google-logo" src="/logo-images/google-logo.png" />Sign
+            in with Google
           </button>
           <h5>
             Attendify helps you schedule meetings and track the attendance.
