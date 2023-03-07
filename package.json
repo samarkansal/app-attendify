@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "start": "serve -s dist -p $PORT",
+    "start": "node server.js",
+    "postinstall": "npm run build",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
